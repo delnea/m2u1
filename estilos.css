@@ -1,6 +1,6 @@
 body {
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333;
     margin: 0px;
 }
@@ -12,20 +12,21 @@ header {
 }
 
 footer {
-    background: #E6E2D7;
+    background: #ebe9e4;
     padding: 40px 20px;
 }
 
 figure {
-    background: #E6E2D7;
+    background: linear-gradient(to right,#ebe9e4, #FFF);
     margin: 0;
     padding: 0;
 }
 
 .profile {
     border-radius: 50%;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
     border: 5px solid white;
-    margin: 10px;
+    margin: 20px;
 }
 
 section {
@@ -36,6 +37,13 @@ section {
 section:last-child {
     border: none;
 }
+
+.description {
+    column-count: 3;
+    column-gap: 40px;
+    margin: 20px 0px;
+    line-height: 175%;
+  }
 
 a,
 a:active,
